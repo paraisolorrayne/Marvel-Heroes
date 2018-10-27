@@ -126,13 +126,11 @@
 		55278260218410D800E200CD /* MarvelHeroes */ = {
 			isa = PBXGroup;
 			children = (
+				552782952184178400E200CD /* Scenes */,
+				552782942184176600E200CD /* DataModel */,
+				552782932184174E00E200CD /* Resources */,
 				55278261218410D800E200CD /* AppDelegate.swift */,
-				55278263218410D800E200CD /* ViewController.swift */,
-				55278265218410D800E200CD /* Main.storyboard */,
-				5527826B218410D900E200CD /* Assets.xcassets */,
-				5527826D218410D900E200CD /* LaunchScreen.storyboard */,
 				55278270218410D900E200CD /* Info.plist */,
-				55278268218410D800E200CD /* MarvelHeroes.xcdatamodeld */,
 			);
 			path = MarvelHeroes;
 			sourceTree = "<group>";
@@ -153,6 +151,32 @@
 				55278286218410D900E200CD /* Info.plist */,
 			);
 			path = MarvelHeroesUITests;
+			sourceTree = "<group>";
+		};
+		552782932184174E00E200CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5527826D218410D900E200CD /* LaunchScreen.storyboard */,
+				5527826B218410D900E200CD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		552782942184176600E200CD /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				55278268218410D800E200CD /* MarvelHeroes.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		552782952184178400E200CD /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				55278263218410D800E200CD /* ViewController.swift */,
+				55278265218410D800E200CD /* Main.storyboard */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 		69B50A09C6F1FA613F420881 /* Pods */ = {
